@@ -92,7 +92,6 @@ public struct Format: CustomStringConvertible {
 }
 
 public let defaultOptions: PythonObject = [
-    "format": "bestvideo,bestaudio[ext=m4a]",
     "nocheckcertificate": true,
 ]
 
