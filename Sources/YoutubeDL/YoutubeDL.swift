@@ -92,6 +92,7 @@ public struct Format: CustomStringConvertible {
 }
 
 public let defaultOptions: PythonObject = [
+    "format": "all",
     "nocheckcertificate": true,
 ]
 
